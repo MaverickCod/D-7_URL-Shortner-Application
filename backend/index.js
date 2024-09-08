@@ -9,7 +9,7 @@ app.use(cors({origin:"*"}));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-const port = process.env.PORT || 5252;
+const port = process.env.PORT || 10000;
 const hostname = "localhost";
 
 app.get("/", (req, res) => {
